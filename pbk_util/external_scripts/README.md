@@ -1,0 +1,1 @@
+The files in this directory are samples of scripts that would be placed in a system for configuration or process. The `10-macvlan-interfaces.sh` script is an example of this. This script is placed in the `/etc/networkd-dispatcher/configured.d/` directory to create a shim interface on a Docker macvlan network.

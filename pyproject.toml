@@ -1,0 +1,16 @@
+[build-system]
+requires = [ "flit_core >=3.1,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pbk-util"
+version = "2023.03.0"
+description = "Perflosopher's Personal Utilities"
+authors = [{ name = "Wes Vaske", email = "perflosopher@perflosophy.com"}]
+requires-python = ">=3.8"
+
+[options]
+packages = "find:"
+
+[project.scripts]
+pghelp = "pbk_util.scripts.pghelp:main"
